@@ -1,10 +1,12 @@
 .body {
     display: flex;
     flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .header-logo {
   font-size: 24px;
   color: #f9faf8;
+  padding: 10px;
 }
 
 .header {
@@ -19,6 +21,7 @@
     gap: 18px;
     color: #e5e7eb;
     font-size: 18px;
+    padding: 16px;
 }
 
 ul {
@@ -54,11 +57,14 @@ ul {
 .hero-img {
     display: flex;
     justify-content: right;
+    width: 400x;
+    height: 400px;
 }
 
 .hero button {
-    max-width: 80px;
+    max-width: 150px;
     background-color: #3882f6;
+    font-weight: 800;
 }
 
 .info-title {
@@ -68,10 +74,13 @@ ul {
 }
 
 .info img {
-    max-width: 100px;
+    max-width: 125px;
 }
 
 .info { 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     width: 100px;
     margin: 16px;
     padding: 16px;
@@ -96,8 +105,42 @@ ul {
     color: #1f2937;
 }
 
-.call-to-action, button {
+.action {
+    color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     background-color: #3882f6;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 50px;
+    width: 70%;
+    
+    
+}
+.left {
     
 
+
+}
+
+
+
+button {
+    font-weight: 800;
+    display: flex;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    width: 120px;
+    padding: 16px;
+    border-radius: 8px;
+    
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #e5e7eb;
 }
