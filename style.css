@@ -18,6 +18,7 @@
 
 .header-links {
     display: flex;
+    flex-direction: row;
     gap: 18px;
     color: #e5e7eb;
     font-size: 18px;
@@ -31,6 +32,7 @@ ul {
 .hero {
  background-color: #1f2937;
  display: flex;
+ flex-direction: column;
  align-items: center;
  justify-content: center;
  padding: 60px;
@@ -55,10 +57,18 @@ ul {
 }
 
 .hero-img {
-    max-width: 100%;
+    max-width: 20%;
     height: auto;
+
     
 }
+
+img {
+    width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+    
 
 .hero button {
     max-width: 150px;
